@@ -46,6 +46,26 @@ Knowledge_base-search-Engine/
 
 ## Installation
 
+**Create & Activate a Virtual Environment**
+python -m venv .venv
+# For Windows PowerShell
+.venv\Scripts\activate
+
+**Install Dependencies**
+pip install -r requirements.txt
+
+**.gitignore**
+.venv/
+__pycache__/
+*.pkl
+*.faiss
+*.pdf
+
+**GET /summarize-browser**
+
+Simple browser page to summarize PDFs.
+
+
 ### Clone the Repository
 bash
 https://github.com/SRIRAMYA2005/Knowledge_base_search_Engine.git
